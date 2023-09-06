@@ -2,6 +2,10 @@
 for num in range(1, 11):
     print(num ** 3)
 
+for num_cubed in (num ** 3 for num in range(1, 11)):
+    print(num_cubed)
+                            #not sure which one would be best 
+
 
 
 # Exercise 2 
