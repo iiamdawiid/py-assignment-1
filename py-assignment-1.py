@@ -2,6 +2,8 @@
 for num in range(1, 11):
     print(num ** 3)
 
+
+
 # Exercise 2 
 for num in range(1, 101):
     counter = 0
@@ -10,6 +12,8 @@ for num in range(1, 101):
             counter += 1
     if counter == 2:
         print(num)
+
+
 
 # Exercise 3
 go_again = True
